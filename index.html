@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f9eee8">
+  <meta name="description" content="Invitación al bautizo de Ximena — 21 de noviembre de 2026.">
+  <title>Mi Bautizo · Ximena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --paper:#fffdf9;--cream:#fbf2e8;--blush:#f6dfe2;--pink:#e8a6b2;
+      --rose:#b96d7f;--rose-dark:#875263;--sage:#9bab87;--gold:#c7a474;
+      --ink:#644e55;--line:rgba(135,82,99,.22);--shadow:0 25px 80px rgba(111,71,79,.14)
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:#f7eee9;font-family:Montserrat,Arial,sans-serif;line-height:1.6;overflow-x:hidden}
+    button,a{-webkit-tap-highlight-color:transparent}.page{position:relative;width:min(900px,100%);margin:auto;overflow:hidden;background:var(--paper);box-shadow:var(--shadow)}
+    .grain{position:fixed;inset:0;z-index:80;pointer-events:none;opacity:.16;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.13'/%3E%3C/svg%3E")}
+    h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500}.script{font-family:Allura,cursive}.eyebrow{margin:0;color:var(--sage);font-size:.67rem;font-weight:600;letter-spacing:.26em;text-transform:uppercase}.ornament{display:flex;align-items:center;justify-content:center;gap:12px;margin:26px auto;color:var(--pink)}.ornament:before,.ornament:after{content:"";width:64px;height:1px;background:linear-gradient(90deg,transparent,var(--pink))}.ornament:after{transform:scaleX(-1)}
+    .intro-screen{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:24px;background:linear-gradient(145deg,#fffdf9,#f8e7e4);transition:opacity .9s ease,visibility .9s ease}.intro-screen.open{opacity:0;visibility:hidden}.intro-box{text-align:center;animation:arrive 1.2s ease both}.intro-mini{width:165px;max-height:180px;object-fit:contain;mix-blend-mode:multiply;filter:drop-shadow(0 14px 18px rgba(135,82,99,.12))}.intro-box p{margin:8px 0 18px;color:var(--sage);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase}.open-button{border:0;border-radius:999px;padding:14px 23px;color:#fff;background:linear-gradient(135deg,#d98b9e,#b96d7f);font:600 .75rem Montserrat,sans-serif;letter-spacing:.07em;cursor:pointer;box-shadow:0 12px 28px rgba(185,109,127,.28);transition:.25s}.open-button:hover{transform:translateY(-2px) scale(1.02)}
+    .music{position:fixed;z-index:90;right:17px;bottom:17px;width:48px;height:48px;border:1px solid rgba(255,255,255,.8);border-radius:50%;color:#fff;background:rgba(185,109,127,.87);box-shadow:0 8px 25px rgba(111,71,79,.22);backdrop-filter:blur(8px);cursor:pointer}.music.playing:after{content:"";position:absolute;inset:-6px;border:1px solid rgba(185,109,127,.35);border-radius:50%;animation:pulse 2s infinite}
+    .hero{position:relative;min-height:100svh;display:grid;grid-template-columns:.92fr 1.08fr;align-items:center;padding:54px 54px 70px;isolation:isolate;background:radial-gradient(circle at 73% 25%,rgba(249,221,226,.55),transparent 34%),linear-gradient(160deg,#fffefa 0%,#fbf3eb 62%,#f5e1de 100%)}
+    .hero:before{content:"";position:absolute;inset:25px;border:1px solid rgba(185,109,127,.2);border-radius:45% 45% 16px 16px;z-index:-1}.hero-copy{position:relative;z-index:3;text-align:center}.hero-copy .script{margin:3px 0 7px;color:var(--pink);font-size:2rem}.hero h1{margin:0;color:var(--rose-dark);font-size:clamp(3.5rem,9vw,5.2rem);line-height:.78;letter-spacing:-.055em}.hero .invite{margin:18px auto 0;color:var(--sage);font:italic 1.3rem/1 'Cormorant Garamond',Georgia,serif}.hero-name{display:block;margin:3px 0 18px;color:var(--rose-dark);font:500 clamp(5.8rem,15vw,8.7rem)/.72 'Cormorant Garamond',Georgia,serif;letter-spacing:-.075em}.date-ribbon{display:inline-block;margin-top:11px;padding:10px 19px;color:#fff;background:linear-gradient(90deg,#eab0ba,#cf8295,#eab0ba);border-radius:4px 4px 12px 12px;box-shadow:0 8px 18px rgba(185,109,127,.18);font:500 .95rem 'Cormorant Garamond',Georgia,serif;letter-spacing:.04em}.bunny-wrap{position:relative;z-index:2;align-self:end;height:min(76svh,720px)}.bunny-wrap img{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 20px 17px rgba(140,102,75,.12));animation:breathe 5.5s ease-in-out infinite;transform-origin:center bottom}.scroll{position:absolute;z-index:5;left:50%;bottom:24px;transform:translateX(-50%);display:flex;align-items:center;gap:8px;color:var(--sage);font-size:.58rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase}.scroll i{display:block;width:1px;height:27px;background:var(--sage);animation:scrollLine 1.8s ease-in-out infinite}
+    .butterfly{position:absolute;z-index:4;width:38px;height:29px;pointer-events:none;filter:drop-shadow(0 5px 4px rgba(139,83,100,.12));animation:drift 8s ease-in-out infinite}.butterfly svg{width:100%;height:100%;overflow:visible}.butterfly .wing{transform-origin:center;animation:flap .72s ease-in-out infinite alternate}.b1{top:13%;right:10%;animation-delay:-2s}.b2{bottom:18%;left:8%;width:28px;animation-duration:9.5s;animation-delay:-5s}.b3{top:42%;left:46%;width:23px;animation-duration:7s;animation-delay:-1s}.b4{top:25%;left:4%;width:31px;animation-duration:10s;animation-delay:-7s}.b5{right:5%;bottom:30%;width:25px;animation-duration:7.7s;animation-delay:-3s}.b6{left:32%;bottom:11%;width:19px;animation-duration:11s;animation-delay:-8s}.floating-flower{position:absolute;z-index:1;pointer-events:none;color:#efbbc5;font:2.1rem Georgia,serif;opacity:.62;filter:drop-shadow(0 5px 5px rgba(139,83,100,.08));animation:flowerFloat 8s ease-in-out infinite}.f1{left:4%;top:64%;animation-delay:-2s}.f2{right:4%;top:48%;font-size:1.5rem;animation-delay:-5s}.f3{left:48%;top:7%;font-size:1.25rem;animation-delay:-6s}.petal{position:absolute;z-index:1;width:10px;height:16px;border-radius:80% 0 80% 0;background:linear-gradient(145deg,#f7cbd3,#e9a6b3);opacity:.55;pointer-events:none;animation:petalFall 12s linear infinite}.p1{left:13%;top:-20px;animation-delay:-2s}.p2{left:38%;top:-20px;animation-delay:-8s}.p3{left:73%;top:-20px;animation-delay:-5s}.p4{left:91%;top:-20px;animation-delay:-10s}
+    .flow{position:relative;padding:88px 68px;text-align:center}.flow:before,.flow:after{content:"❀";position:absolute;color:rgba(232,166,178,.16);font:12rem Georgia,serif;pointer-events:none}.flow:before{left:-30px;top:40px;transform:rotate(-24deg)}.flow:after{right:-25px;bottom:20px;transform:rotate(30deg)}.flow>*{position:relative;z-index:1}.flow h2{max-width:650px;margin:10px auto 18px;color:var(--rose-dark);font-size:clamp(2.7rem,7vw,4.4rem);line-height:.91}.flow .lead{max-width:620px;margin:0 auto;font:italic 1.26rem/1.4 'Cormorant Garamond',Georgia,serif}
+    .family{display:grid;grid-template-columns:1fr auto 1fr;align-items:start;gap:24px;max-width:740px;margin:55px auto 0}.family .divider{width:1px;height:98px;background:linear-gradient(transparent,var(--line),transparent)}.role{margin:0 0 7px;color:var(--sage);font-size:.63rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase}.family p:last-child{margin:0;color:var(--rose-dark);font:1.5rem/1.16 'Cormorant Garamond',Georgia,serif}
+    .ceremony{position:relative;padding:85px 68px;text-align:center;color:#fff;background:radial-gradient(circle at 16% 22%,rgba(255,223,227,.17),transparent 22%),radial-gradient(circle at 86% 74%,rgba(229,237,213,.14),transparent 25%),linear-gradient(145deg,#8f5969,#ba7789)}.ceremony:before,.ceremony:after{content:"";position:absolute;left:0;right:0;height:42px;background:var(--paper)}.ceremony:before{top:-1px;clip-path:ellipse(55% 55% at 50% 0)}.ceremony:after{bottom:-1px;clip-path:ellipse(55% 55% at 50% 100%)}.ceremony .eyebrow{color:#f7dfe5}.ceremony h2{margin:8px 0 32px;font-size:clamp(3.2rem,8vw,4.7rem);line-height:.84}.when{display:flex;justify-content:center;align-items:center;gap:29px}.when .day{font:5rem/.76 'Cormorant Garamond',Georgia,serif}.when .month{text-align:left;font-size:.68rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase}.when .month span{display:block;margin-top:5px;font:italic 1.55rem/1 'Cormorant Garamond',Georgia,serif;letter-spacing:0;text-transform:none}.ceremony .place{max-width:470px;margin:29px auto 0;padding-top:25px;border-top:1px solid rgba(255,255,255,.35)}.ceremony .place strong{display:block;font:1.55rem/1.15 'Cormorant Garamond',Georgia,serif}.ceremony .place span{display:block;margin-top:6px;font-size:.74rem;letter-spacing:.11em;text-transform:uppercase}
+    .prayer{position:relative;padding:92px 65px 102px;text-align:center;background:radial-gradient(circle at 50% 48%,#fff 0,#fffaf5 52%,#f9ecea 100%)}.prayer:before{content:"“";display:block;height:52px;color:var(--pink);font:5.8rem/1 Georgia,serif}.prayer blockquote{max-width:640px;margin:0 auto;color:var(--rose-dark);font:italic clamp(1.75rem,5vw,2.35rem)/1.18 'Cormorant Garamond',Georgia,serif}.prayer cite{display:block;margin-top:20px;color:var(--sage);font:600 .62rem Montserrat,sans-serif;font-style:normal;letter-spacing:.2em;text-transform:uppercase}
+    .reception{position:relative;padding:90px 68px 0;text-align:center;background:#fffdf9}.reception h2{margin:8px 0 7px;color:var(--rose-dark);font-size:clamp(3rem,8vw,4.8rem);line-height:.8}.reception .garden{margin:0;color:var(--pink);font:2rem Allura,cursive}.address{max-width:520px;margin:14px auto 0;font-size:.78rem;line-height:1.65}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:25px auto 36px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border:1px solid rgba(185,109,127,.33);border-radius:99px;color:var(--rose-dark);background:#fff;text-decoration:none;font-size:.72rem;font-weight:600;transition:.25s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(111,71,79,.12)}.btn.primary{color:#fff;border-color:var(--rose);background:var(--rose)}.map-wrap{position:relative;margin:0 -68px;overflow:hidden}.map-wrap:before{content:"";position:absolute;z-index:2;inset:0;pointer-events:none;box-shadow:inset 0 18px 30px rgba(255,253,249,.9)}.map{display:block;width:100%;height:330px;border:0;filter:saturate(.72) sepia(.06)}
+    .gifts{position:relative;padding:95px 68px 80px;text-align:center;background:linear-gradient(145deg,#f9ecec,#fffaf4 52%,#eef2e7)}.gifts .mini-bunny{display:block;width:min(205px,60%);height:auto;margin:-28px auto 9px;filter:drop-shadow(0 12px 13px rgba(125,82,91,.12));animation:breathe 6s ease-in-out infinite}.gifts h2{margin:0;color:var(--rose-dark);font-size:clamp(2.8rem,7vw,4rem);line-height:.9}.gifts p{max-width:570px;margin:17px auto 22px;font:italic 1.4rem/1.34 'Cormorant Garamond',Georgia,serif}.gifts .btn{min-height:48px;padding:0 22px}.footer{position:relative;padding:65px 30px 46px;text-align:center;background:#fffdf9}.footer .script{margin:0;color:var(--pink);font-size:2.1rem}.footer p:last-child{margin:8px 0 0;color:var(--sage);font-size:.61rem;letter-spacing:.18em;text-transform:uppercase}
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease}.reveal.visible{opacity:1;transform:none}
+    @keyframes arrive{from{opacity:0;transform:translateY(17px)}to{opacity:1;transform:none}}@keyframes breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.008)}}@keyframes flap{from{transform:scaleX(.36)}to{transform:scaleX(1)}}@keyframes drift{0%,100%{transform:translate(0,0) rotate(-5deg)}33%{transform:translate(13px,-12px) rotate(7deg)}66%{transform:translate(-8px,-24px) rotate(-2deg)}}@keyframes flowerFloat{0%,100%{transform:translate(0,0) rotate(-8deg)}50%{transform:translate(9px,-14px) rotate(9deg)}}@keyframes petalFall{0%{transform:translateY(-10vh) translateX(0) rotate(0);opacity:0}12%{opacity:.6}60%{transform:translateY(58vh) translateX(22px) rotate(230deg)}100%{transform:translateY(112vh) translateX(-15px) rotate(430deg);opacity:0}}@keyframes scrollLine{0%,100%{transform:scaleY(.4);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}}@keyframes pulse{0%{transform:scale(.85);opacity:0}40%{opacity:1}100%{transform:scale(1.25);opacity:0}}
+    @media(max-width:700px){.hero{min-height:100svh;grid-template-columns:1fr;padding:55px 25px 67px}.hero:before{inset:17px;border-radius:38% 38% 14px 14px}.hero-copy{padding-top:10px}.hero h1{font-size:clamp(3.5rem,16vw,5rem)}.hero-name{font-size:clamp(6.4rem,30vw,8.8rem)}.hero .invite{margin:15px auto 0}.bunny-wrap{height:44svh;min-height:320px;margin-top:-4px}.b1{top:9%;right:9%}.b2{bottom:14%;left:6%}.b3{top:55%;left:10%}.b4{top:43%;left:5%}.b5{right:4%;bottom:16%}.flow,.prayer,.reception,.gifts{padding-left:27px;padding-right:27px}.flow{padding-top:72px;padding-bottom:75px}.family{grid-template-columns:1fr;gap:24px}.family .divider{width:80px;height:1px;margin:auto}.ceremony{padding:80px 27px}.when{gap:17px}.prayer{padding-top:80px;padding-bottom:84px}.map-wrap{margin-left:-27px;margin-right:-27px}.map{height:285px}.gifts{padding-top:75px}.gifts .mini-bunny{width:min(190px,65%)}.music{right:12px;bottom:12px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="intro-screen" id="introScreen">
+    <div class="intro-box">
+      <img class="intro-mini" src="assets/conejita-ximena-transparente.png" alt="Conejita de acuarela con flores y mariposas">
+      <p>Una invitación muy especial</p>
+      <button class="open-button" id="openInvitation">Abrir invitación ♡</button>
+    </div>
+  </div>
+  <button class="music" id="musicButton" aria-label="Activar o silenciar música" title="Música">♪</button>
+  <audio id="backgroundMusic" src="assets/musica-bautizo-ximena.mp4" preload="auto" loop></audio>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Con inmensa alegría</p>
+        <p class="script">queremos compartir contigo</p>
+        <h1>El Bautizo</h1>
+        <p class="invite">de</p>
+        <strong class="hero-name">Ximena</strong>
+        <span class="date-ribbon">21 · noviembre · 2026</span>
+      </div>
+      <div class="bunny-wrap"><img src="assets/conejita-ximena-transparente.png" alt="Conejita de acuarela rodeada de mariposas rosas"></div>
+      <span class="butterfly b1" aria-hidden="true"><svg viewBox="0 0 60 46"><path class="wing" d="M29 23C16-4 1 1 7 19c3 9 12 12 22 8zM31 23C44-4 59 1 53 19c-3 9-12 12-22 8z" fill="#efb7c1" opacity=".82"/><path d="M30 16v19" stroke="#a96a78" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span class="butterfly b2" aria-hidden="true"><svg viewBox="0 0 60 46"><path class="wing" d="M29 23C16-4 1 1 7 19c3 9 12 12 22 8zM31 23C44-4 59 1 53 19c-3 9-12 12-22 8z" fill="#edc79d" opacity=".88"/><path d="M30 16v19" stroke="#a96a78" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span class="butterfly b3" aria-hidden="true"><svg viewBox="0 0 60 46"><path class="wing" d="M29 23C16-4 1 1 7 19c3 9 12 12 22 8zM31 23C44-4 59 1 53 19c-3 9-12 12-22 8z" fill="#d9a8cd" opacity=".82"/><path d="M30 16v19" stroke="#8d617f" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span class="butterfly b4" aria-hidden="true"><svg viewBox="0 0 60 46"><path class="wing" d="M29 23C16-4 1 1 7 19c3 9 12 12 22 8zM31 23C44-4 59 1 53 19c-3 9-12 12-22 8z" fill="#f2c0c8" opacity=".82"/><path d="M30 16v19" stroke="#a96a78" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span class="butterfly b5" aria-hidden="true"><svg viewBox="0 0 60 46"><path class="wing" d="M29 23C16-4 1 1 7 19c3 9 12 12 22 8zM31 23C44-4 59 1 53 19c-3 9-12 12-22 8z" fill="#edc79d" opacity=".85"/><path d="M30 16v19" stroke="#a96a78" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span class="butterfly b6" aria-hidden="true"><svg viewBox="0 0 60 46"><path class="wing" d="M29 23C16-4 1 1 7 19c3 9 12 12 22 8zM31 23C44-4 59 1 53 19c-3 9-12 12-22 8z" fill="#d9a8cd" opacity=".8"/><path d="M30 16v19" stroke="#8d617f" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span class="floating-flower f1" aria-hidden="true">❀</span><span class="floating-flower f2" aria-hidden="true">❀</span><span class="floating-flower f3" aria-hidden="true">✿</span>
+      <i class="petal p1" aria-hidden="true"></i><i class="petal p2" aria-hidden="true"></i><i class="petal p3" aria-hidden="true"></i><i class="petal p4" aria-hidden="true"></i>
+      <div class="scroll"><i></i>Desliza</div>
+    </section>
+
+    <section class="flow">
+      <div class="reveal">
+        <p class="eyebrow">Un día lleno de amor</p>
+        <h2>Queremos compartir contigo esta bendición</h2>
+        <p class="lead">La vida de Ximena comienza un hermoso camino de fe, rodeada del cariño de quienes más la quieren.</p>
+      </div>
+      <div class="ornament reveal">❀</div>
+      <div class="family reveal">
+        <div><p class="role">Sus papás</p><p>Ximena Cruz Rivera<br>&amp; Alberto Rosas García</p></div>
+        <span class="divider" aria-hidden="true"></span>
+        <div><p class="role">Sus padrinos</p><p>Monserrat Almanza Rivera<br>&amp; Ulises Rivera Ordoñez</p></div>
+      </div>
+    </section>
+
+    <section class="ceremony">
+      <div class="reveal">
+        <p class="eyebrow">La ceremonia</p>
+        <h2>Santa Misa</h2>
+        <div class="when"><span class="day">21</span><span class="month">Noviembre · 2026<span>13:00 horas</span></span></div>
+        <p class="place"><strong>Parroquia de San José el Vidrio</strong><span>Te esperamos para acompañarnos</span></p>
+      </div>
+    </section>
+
+    <section class="prayer">
+      <div class="reveal">
+        <blockquote>Que el agua de este bautismo sea para Ximena fuente de vida nueva, y que Dios ilumine siempre sus pasos con amor, fe y esperanza.</blockquote>
+        <cite>Una oración para su camino</cite>
+      </div>
+    </section>
+
+    <section class="reception">
+      <div class="reveal">
+        <p class="eyebrow">Después de la misa</p>
+        <h2>Recepción</h2>
+        <p class="garden">Jardín las Palmeras</p>
+        <p class="address">Cerrada Luis Donaldo Colosio, Col. La Y Griega, Nicolás Romero, Estado de México.</p>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com.mx/maps/place/Jard%C3%ADn+las+Palmeras/@19.6276668,-99.3390876,18.81z/data=!4m6!3m5!1s0x85d219007c57cbc9:0x7e982f65fe2da1ff!8m2!3d19.6275469!4d-99.3379249!16s%2Fg%2F11y57gw7f8?hl=es&amp;entry=ttu&amp;g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Cómo llegar ↗</a></div>
+      </div>
+      <div class="map-wrap"><iframe class="map" title="Mapa de Jardín las Palmeras" loading="lazy" src="https://www.google.com/maps?q=19.6275469,-99.3379249&amp;z=16&amp;output=embed"></iframe></div>
+    </section>
+
+    <section class="gifts">
+      <div class="reveal">
+        <img class="mini-bunny" src="assets/conejita-ximena-transparente.png" alt="Conejita de acuarela sin fondo">
+        <p class="eyebrow">Mesa de regalos</p>
+        <h2>Tu presencia es el mejor regalo</h2>
+        <p>Pero si quieres tener un detalle con Ximena, te dejamos algunas recomendaciones preparadas con mucho cariño.</p>
+        <a class="btn primary" target="_blank" rel="noopener" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/60050277">Ver mesa de regalos ↗</a>
+      </div>
+    </section>
+
+    <footer class="footer"><p class="script">Con cariño, la familia de Ximena</p><p>Gracias por acompañarnos</p></footer>
+  </main>
+
+  <script>
+    const intro=document.getElementById('introScreen'),openBtn=document.getElementById('openInvitation'),musicBtn=document.getElementById('musicButton'),backgroundMusic=document.getElementById('backgroundMusic');
+    backgroundMusic.volume=.16;
+    function setMusicState(playing){musicBtn.classList.toggle('playing',playing);musicBtn.textContent=playing?'♫':'♪';musicBtn.setAttribute('aria-label',playing?'Pausar música':'Activar música')}
+    async function startMusic(){try{await backgroundMusic.play();setMusicState(true)}catch(error){setMusicState(false)}}
+    function stopMusic(){backgroundMusic.pause();setMusicState(false)}
+    openBtn.addEventListener('click',()=>{intro.classList.add('open');startMusic()});
+    musicBtn.addEventListener('click',()=>backgroundMusic.paused?startMusic():stopMusic());
+    backgroundMusic.addEventListener('pause',()=>setMusicState(false));
+    backgroundMusic.addEventListener('play',()=>setMusicState(true));
+    const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.16});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  </script>
+</body>
+</html>
